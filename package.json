@@ -1,0 +1,38 @@
+{
+  "homepage": "https://SamPomeroy.github.io/portfolio",
+
+  "name": "portfolio",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "format": "prettier --write .",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
+
+  },
+  "dependencies": {
+    "@tailwindcss/vite": "^4.1.7",
+    "gh-pages": "^6.3.0",
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0",
+    "react-icons": "^5.5.0",
+    "react-router-dom": "^7.6.1",
+    "tailwindcss": "^4.1.7"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.27.3",
+    "@babel/eslint-parser": "^7.27.1",
+    "@babel/preset-react": "^7.27.1",
+    "@types/react": "^19.1.2",
+    "@types/react-dom": "^19.1.2",
+    "@vitejs/plugin-react": "^4.4.1",
+    "eslint-plugin-react-hooks": "^5.2.0",
+    "eslint-plugin-react-refresh": "^0.4.19",
+    "prettier": "^3.5.3",
+    "vite": "^6.3.5"
+  }
+}
