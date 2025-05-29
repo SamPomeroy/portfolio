@@ -14,7 +14,7 @@ export default function Home() {
         href="/projects"
         className="text-lg text-lime-400 hover:text-lime-300 underline decoration-dotted underline-offset-4 transition duration-200"
       >
-        ✨ Explore My Work
+        {/* ✨ Explore My Work */}
       </a>
     </div>
   );
