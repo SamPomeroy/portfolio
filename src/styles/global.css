@@ -1,9 +1,8 @@
 @import 'tailwindcss';
 
 #root {
-  max-width: 960px; /* or 1280px, depending on your preference */
-  margin: 0 auto; /* centers everything inside horizontally */
-  padding: 2rem 1rem; /* space inside */
+  margin: 0; /* centers everything inside horizontally */
+  padding: 0; /* space inside */
   text-align: center;
 }
 
@@ -20,6 +19,7 @@ body {
   @apply bg-[#e1e1ee] text-[#d4d4d4] font-mono;
 
   margin: 0;
+  padding: 0;
   min-width: 320px;
   min-height: 100vh;
   font-family:

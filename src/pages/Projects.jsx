@@ -10,9 +10,9 @@ function Projects() {
       </h1>
 
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-10 w-full max-w-6xl">
-        {projects.map((project, index) => (
-          <div className="hover:scale-105 transition-transform duration-300">
-            <ProjectCard key={index} {...project} />
+        {projects.map((project) => (
+          <div key={project.id} className="hover:scale-105 transition-transform duration-300">
+            <ProjectCard {...project} />
           </div>
         ))}
       </div>

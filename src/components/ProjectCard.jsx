@@ -11,12 +11,8 @@ function ProjectCard({ title, description, image, link }) {
         />
       )}
       <div className="p-6 flex flex-col flex-grow">
-        <h3 className="text-xl font-bold text-lime-400 mb-3 font-mono">
-          {title}
-        </h3>
-        <p className="text-[#d4d4d4] text-sm mb-4 flex-grow font-mono">
-          {description}
-        </p>
+        <h3 className="text-xl font-bold text-lime-400 mb-3 font-mono">{title}</h3>
+        <p className="text-[#d4d4d4] text-sm mb-4 flex-grow font-mono">{description}</p>
         {link && (
           <a
             href={link}
@@ -33,3 +29,4 @@ function ProjectCard({ title, description, image, link }) {
 }
 
 export default ProjectCard;
+

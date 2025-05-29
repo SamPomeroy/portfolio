@@ -10,7 +10,7 @@ import About from './pages/About';
 
 function App() {
   return (
-    <div className="flex">
+    <div className="min-h-screen bg-[#020817] text-white">
       <Sidebar />
       <MainPanel></MainPanel>
     </div>

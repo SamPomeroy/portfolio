@@ -19,18 +19,18 @@ const sections = [
 function Sidebar() {
   return (
     <aside className="fixed top-0 left-0 h-full w-20 bg-[#1B1E18] flex flex-col items-center py-6 gap-4 shadow-lg">
-      {sections.map(({ path, label }) => (
+      {sections.map(({ path, label, icon }) => (
         <NavLink
           key={path}
           to={path}
           className={({ isActive }) =>
-            `w-16 h-16 rounded-full flex items-center justify-center font-bold transition-colors ${
+            `w-16 h-16 rounded-full flex items-center justify-center text-white text-2xl transition-colors ${
               isActive ? 'bg-lime-400' : 'bg-[#333] hover:bg-lime-600'
             }`
           }
           title={label}
         >
-          {label[0]}
+          {icon}
         </NavLink>
       ))}
     </aside>
