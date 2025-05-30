@@ -9,7 +9,7 @@ export default function About() {
         I'm rebuilding my life and career with purpose and intention.
       </p>
       <div className="text-[#F0EDE3] text-lg max-w-xl">
-        <ul className="list-disc list-inside space-y-2 text-left">
+        <ul className="space-y-2 text-center list-none">
           <li>💻 Skilled in React, JavaScript, and Python.</li>
           <li>💡 Passionate about second chances and social impact.</li>
           <li>📢 Strong communicator and problem solver.</li>

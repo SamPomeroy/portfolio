@@ -29,6 +29,13 @@ export const skills = {
     'Microsoft Suites',
   ],
   'UX & Design': ['Wireframing', 'Figma', 'Usability Testing'],
-  Testing: ['Jest', 'React Testing Library', 'End-to-end Testing'],
-  Misc: ['ChatGPT (My AI sidekick)'],
+  Testing: ['Pytest', 'Node.js'],
+  'Soft Skills': [
+    'Communication',
+    'Problem Solving',
+    'Teamwork',
+    'Adaptability',
+    'Time Management',
+  ],
+   misc: ['ChatGPT, Microsoft Copilot, and all the other AI guys — my trusty sidekicks'],
 };

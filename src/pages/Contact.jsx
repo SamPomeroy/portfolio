@@ -1,6 +1,6 @@
 import React from "react";
 import { FaEnvelope, FaLinkedin } from "react-icons/fa";
-import profileImage from "../assets/images/SamNov24.jpg"; // Adjust path if necessary
+import profileImage from "../assets/images/SamNov24.jpg"; 
 
 function Contact() {
   return (
