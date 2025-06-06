@@ -72,12 +72,12 @@ function Contact() {
     className="p-3 rounded bg-[#2a2a2a] text-lime-300 placeholder-gray-400 border border-lime-400 focus:outline-none focus:ring-2 focus:ring-lime-300"
     required
   ></textarea>
-  <button
-    type="submit"
-    className="bg-lime-400 hover:bg-lime-300 text-black font-semibold py-2 px-4 rounded shadow-md transition duration-200 ease-in-out"
-  >
-    Send Message
-  </button>
+<button
+  type="submit"
+  className="bg-lime-400 hover:bg-lime-300 text-gray-300 font-semibold py-2 px-4 rounded shadow-md transition duration-200 ease-in-out"
+>
+  Send Message
+</button>
 </form>
       </div>
     </section>
