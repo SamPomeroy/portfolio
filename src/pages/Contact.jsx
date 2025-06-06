@@ -74,7 +74,7 @@ function Contact() {
   ></textarea>
 <button
   type="submit"
-  className="bg-lime-400 hover:bg-lime-300 text-gray-300 font-semibold py-2 px-4 rounded shadow-md transition duration-200 ease-in-out"
+  className="bg-[#2a2a2a] text-lime-300 border border-lime-400 hover:bg-[#333] hover:border-lime-300 transition duration-200 ease-in-out font-semibold py-2 px-4 rounded shadow-sm"
 >
   Send Message
 </button>
