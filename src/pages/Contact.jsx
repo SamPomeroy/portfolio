@@ -46,39 +46,39 @@ function Contact() {
           </a>
         </p>
 
-        <form
-          ref={form}
-          onSubmit={sendEmail}
-          className="flex flex-col gap-4 bg-white bg-opacity-5 p-6 rounded-xl shadow-md"
-        >
-          <input
-            type="text"
-            name="user_name"
-            placeholder="Your Name"
-            className="p-3 rounded bg-white text-black"
-            required
-          />
-          <input
-            type="email"
-            name="user_email"
-            placeholder="Your Email"
-            className="p-3 rounded bg-white text-black"
-            required
-          />
-          <textarea
-            name="message"
-            rows="5"
-            placeholder="Your Message"
-            className="p-3 rounded bg-white text-black"
-            required
-          ></textarea>
-          <button
-            type="submit"
-            className="bg-lime-400 hover:bg-lime-300 text-black font-semibold py-2 px-4 rounded"
-          >
-            Send Message
-          </button>
-        </form>
+<form
+  ref={form}
+  onSubmit={sendEmail}
+  className="flex flex-col gap-4 bg-[#1a1a1a] bg-opacity-80 p-6 rounded-xl shadow-md text-left"
+>
+  <input
+    type="text"
+    name="user_name"
+    placeholder="Your Name"
+    className="p-3 rounded bg-[#2a2a2a] text-lime-300 placeholder-gray-400 border border-lime-400 focus:outline-none focus:ring-2 focus:ring-lime-300"
+    required
+  />
+  <input
+    type="email"
+    name="user_email"
+    placeholder="Your Email"
+    className="p-3 rounded bg-[#2a2a2a] text-lime-300 placeholder-gray-400 border border-lime-400 focus:outline-none focus:ring-2 focus:ring-lime-300"
+    required
+  />
+  <textarea
+    name="message"
+    rows="5"
+    placeholder="Your Message"
+    className="p-3 rounded bg-[#2a2a2a] text-lime-300 placeholder-gray-400 border border-lime-400 focus:outline-none focus:ring-2 focus:ring-lime-300"
+    required
+  ></textarea>
+  <button
+    type="submit"
+    className="bg-lime-400 hover:bg-lime-300 text-black font-semibold py-2 px-4 rounded shadow-md transition duration-200 ease-in-out"
+  >
+    Send Message
+  </button>
+</form>
       </div>
     </section>
   );
