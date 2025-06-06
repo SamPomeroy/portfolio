@@ -5,7 +5,7 @@ export default function About() {
     <div className="flex flex-col items-center justify-center min-h-screen text-center px-6">
       <h2 className="text-4xl font-semibold mb-6 text-lime-400">About Me</h2>
       <p className="text-lg max-w-2xl text-[#E3FDFD] leading-relaxed mb-6">
-        I’m a full stack developer with a background in customer service, resilience, and tech for good. 
+        I’m a research developer with a background in customer service, resilience, and tech for good. 
         I'm rebuilding my life and career with purpose and intention.
       </p>
       <div className="text-[#F0EDE3] text-lg max-w-xl">
