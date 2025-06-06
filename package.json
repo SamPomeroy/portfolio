@@ -1,6 +1,5 @@
 {
   "homepage": "https://SamPomeroy.github.io/portfolio",
-
   "name": "portfolio",
   "private": true,
   "version": "0.0.0",
@@ -12,9 +11,9 @@
     "format": "prettier --write .",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d dist"
-
   },
   "dependencies": {
+    "@emailjs/browser": "^4.4.1",
     "@tailwindcss/vite": "^4.1.7",
     "gh-pages": "^6.3.0",
     "react": "^19.1.0",
